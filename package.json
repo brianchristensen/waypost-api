@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "node main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "echo \"Error: no postinstall specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,8 @@
   "homepage": "https://github.com/brianchristensen/waypost-api#readme",
   "dependencies": {
     "express": "^4.12.4",
+    "gulp": "^3.9.0",
+    "gulp-shell": "^0.4.2",
     "passport": "^0.2.2",
     "pg": "^4.4.0",
     "pg-hstore": "^2.3.2",
