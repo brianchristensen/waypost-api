@@ -1,0 +1,19 @@
+{
+  "development": {
+    "username": "waypost_user",
+    "password": "JWI$#IW$JFWIsajef232",
+    "database": "waypost",
+    "host": "127.0.0.1",
+    "port": "5432",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "hlhbeoeefbfyef",
+    "password": "BDnVW089O7qd7lM91gS3gNm5m1",
+    "database": "d2ahrrn2a4c9db",
+    "host": "ec2-54-83-205-164.compute-1.amazonaws.com",
+    "port": "5432",
+    "dialect": "postgres",
+    "protocol": "postgres"
+  }
+}
