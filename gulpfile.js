@@ -10,6 +10,7 @@ gulp.task('rollback-dev', shell.task([
 ]));
 
 gulp.task('migrate-prod', shell.task([
+    'heroku run bash --app waypost-api',
     'sequelize db:migrate --env production --config config/db.config.json'
 ]));
 
